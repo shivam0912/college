@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="wallpaper">
+    <header>
+        <img src="MANIT_Logo.png">
+    </header>
+    <br>
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="Academics.html">Academics</a></li>
+            <li><a href="Admission.html">Admission</a></li> 
+            <li><a href="departments.html">Departments</a></li>
+            <li><a href="centre.html">Centre</a></li>
+            <li><a href="hostel.html">Hostel</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <br>
+    
+    <form class="f_box">
+        <h1>Admission Form</h1>
+        <hr><br>
+        <table>
+            <tr><td><h3><u>Course Details</u></h3></td></tr>
+            <tr>
+                <td><p>Course Type</p></td>
+                <td>
+                    UG
+                    <input type="radio" name="Type">
+                    PG
+                    <input type="radio" name="Type">
+                </td>
+            </tr>
+            <tr>
+                <td><p>Department</p></td>
+                <td>
+                    <select required>
+                        <option>Select</option>
+                        <option>option 1</option>
+                        <option>option 2</option>
+                        <option>option 3</option>
+                        <option>option 4</option>
+                        <option>option 5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><p>Course</p></td>
+                <td>
+                    <select required>
+                        <option>Select</option>
+                        <option>B.Tech</option>
+                        <option>M.Tech</option>
+                        <option>MCA</option>
+                        <option>M.Sc.</option>
+                        <option>PhD</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><p>Stream</p></td>
+                <td>
+                    <select required>
+                        <option>Select</option>
+                        <option>option 1</option>
+                        <option>option 2</option>
+                        <option>option 3</option>
+                        <option>option 4</option>
+                        <option>option 5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr><td><h3><u>Personal Details</u></h3></td></tr>
+            <tr>
+                <td><p>Full Name</p></td>
+                <td>
+                    <input type="text" placeholder="Enter Full Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td><p>Fathers Name</p></td>
+                <td>
+                    <input type="text" placeholder="Enter Fathers Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td><p>Date of Birth</p></td>
+                <td><input type="date" required></td>
+            </tr>
+            <tr>
+                <td><p>Gender</p></td>
+                <td>
+                    Male
+                    <input type="radio" name="Gender">
+                    Female
+                    <input type="radio" name="Gender">
+                    Others
+                    <input type="radio" name="Gender">
+                </td>
+            </tr>
+            <tr>
+                <td><p>Mobile Number</p></td>
+                <td>
+                    <input type="Number" placeholder="Mobile Number" required>
+                </td>
+            </tr>
+            <tr>
+                <td><p>E-Mail ID</p></td>
+                <td>
+                    <input type="email" placeholder="Enter Email ID" required>
+                </td>
+            </tr>
+            <tr><td><h3><u>Educational Details</u></h3></td></tr>
+            <tr>
+                <td><p>Last Qualifing Degree Type</p></td>
+                <td>
+                    UG
+                    <input type="radio" name="ED Type">
+                    PG
+                    <input type="radio" name="ED Type">
+                </td>
+            </tr>
+            <tr>
+                <td><p>Last Qualifing Degree</p></td>
+                <td>
+                    <select required>
+                        <option>Select</option>
+                        <option>B.Tech</option>
+                        <option>M.Tech</option>
+                        <option>MCA</option>
+                        <option>M.Sc.</option>
+                        <option>PhD</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><p>Result</p></td>
+                <td>
+                    Passed
+                    <input type="radio" name="Result">
+                    Appearing
+                    <input type="radio" name="Result">
+                </td>
+            </tr>
+            <tr>
+                <td><p>Percentage</p></td>
+                <td>
+                    <input type="number" placeholder="Percentage" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="reset">Reset</button>
+                </td>
+                <td>
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br><br>
+</body>
+</html>
